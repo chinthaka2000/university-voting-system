@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { db } from '../firebaseConfig';
-import { collection, query, where, getDocs, onSnapshot } from 'firebase/firestore';
+import { collection, query, getDocs, onSnapshot } from 'firebase/firestore';
 import { Typography, Grid, Paper, CircularProgress } from '@mui/material';
 import { Bar, Pie } from 'react-chartjs-2';
 import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend, ArcElement } from 'chart.js';
