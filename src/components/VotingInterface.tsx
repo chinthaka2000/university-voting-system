@@ -5,7 +5,6 @@ import { Container, Grid, Typography, Button, Card, CardContent, CardMedia, Snac
 import { db } from '../firebaseConfig';
 import { collection, getDocs, query, where, doc, getDoc, updateDoc, setDoc, arrayUnion } from 'firebase/firestore';
 import HowToVoteIcon from '@mui/icons-material/HowToVote';
-import { getAnalytics } from 'firebase/analytics'; // Example line
 
 const VotingInterface: React.FC = () => {
   const [candidates, setCandidates] = useState<any[]>([]);

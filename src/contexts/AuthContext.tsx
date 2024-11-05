@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useEffect, useState, ReactNode } from 'react';
-import { getAuth, signInWithEmailAndPassword } from 'firebase/auth'; // Import the method
+import { signInWithEmailAndPassword } from 'firebase/auth'; // Import the method
 import { auth } from '../firebase'; // Ensure you have initialized Firebase
 
 // Define the User interface
