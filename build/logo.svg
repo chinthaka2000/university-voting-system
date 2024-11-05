@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 100" width="240" height="100">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#8B5CF6" />
+    </linearGradient>
+  </defs>
+  <rect width="240" height="100" fill="white" />
+  <path d="M20 70 C 45 20, 70 20, 95 70" stroke="url(#logoGradient)" stroke-width="12" fill="none" />
+  <path d="M110 70 L 110 20 L 135 20 C 155 20, 155 45, 135 45 C 155 45, 155 70, 135 70 Z" fill="url(#logoGradient)" />
+  <path d="M160 20 L 185 20 L 185 70 L 160 70 L 160 20 M160 45 L 185 45" stroke="url(#logoGradient)" stroke-width="6" fill="none" />
+  <text x="120" y="95" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#4B5563" text-anchor="middle">BALLOT</text>
+</svg>
